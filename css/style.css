@@ -1,0 +1,31 @@
+body 
+{
+    width: 100vw;
+    background-image: url('../img/wembley.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Layout */
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    height: 100vh;
+    margin: 0;
+    margin-left: auto;
+    background-color: white;
+}
+
+/* Typography */
+.title
+{
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rme;
+}
