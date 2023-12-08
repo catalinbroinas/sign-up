@@ -10,23 +10,88 @@
 </head>
 
 <body>
+    <!-- Container -->
     <div class="container">
+
+        <!-- Logo Section -->
         <section class="logo">
             <div class="logo-content">
                 <img src="img/faCup-1.png" alt="FA Cup icon" class="img-logo">
                 <h1 class="title">FA Cup</h1>
             </div>
         </section>
+        <!-- Logo Section -->
+
+        <!-- Content Section -->
         <section class="content">
-            <h2 class="sub-title">Register</h2>
+            <!-- Title -->
+            <h2 class="sub-title">Create an account</h2>
+
+            <!-- Description -->
             <p class="text">
-                The FA Cup, England's oldest football competition, is a knockout tournament open to clubs from all
+                The <strong>FA Cup</strong>, <em>England's oldest football competition</em>, is a knockout tournament open to clubs from all
                 levels. Teams compete annually for the prestigious trophy, with matches held at various venues. The
                 competition's rich history and tradition make it a highly anticipated and celebrated event in English
                 football.
             </p>
+            <!-- Description -->
+            <!-- Information -->
+            <p class="text text-info">Fill out the form below to become a member.</p>
+
+            <!-- Form Register -->
+            <form action="#" method="post" class="register">
+                <!-- Form Title -->
+                <h3 class="sub-title">Register</h3>
+
+                <!-- Name -->
+                <div class="input-group">
+                    <label for="first-name" class="">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="form-control" minlength="3" maxlength="15" required>
+
+                    <label for="last-name" class="">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" class="form-control" minlength="3" maxlength="20" required>
+                </div>
+                <!-- Name -->
+
+                <!-- Contact -->
+                <div class="input-group">
+                    <label for="email-address" class="">Email Address:</label>
+                    <input type="email" id="email-address" name="email-address" class="form-control" required>
+
+                    <label for="phone-number" class="">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number" class="form-control">
+                </div>
+                <!-- Contact -->
+
+                <!-- Password -->
+                <div class="input-group">
+                    <label for="password" class="">Password:</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" class="form-control" required>
+                </div>
+                <!-- Password -->
+
+                <!-- Buttons -->
+                <div class="btn-group">
+                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn" type="reset">Reset</button>
+                </div>
+                <!-- Buttons -->
+
+            </form>
+            <!-- Form Register -->
+
+            <!-- Sign In -->
+            <p class="texx text-info">
+                <small>Already have an account?<a href="#" class="link">Sign In</a></small>
+            </p>
         </section>
+        <!-- Content Section -->
+
     </div>
+    <!-- Container -->
 
     <script src="js/style.js"></script>
 </body>
