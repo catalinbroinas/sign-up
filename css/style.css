@@ -226,3 +226,47 @@ input:placeholder-shown
     background-color: #FCE4EC;
     padding: 0.5rem 2rem;
 }
+
+/* Devices HD resolution */
+@media only screen and (max-width: 1599px)
+{
+    .content
+    {
+        flex: 7;
+    }
+    .logo
+    {
+        flex: 3;
+    }
+    .title
+    {
+        font-size: 2.5rem;
+    }
+    .sub-title
+    {
+        font-size: 1.75rem;
+        margin: 0 0 1.75rem;
+    }
+    .text
+    {
+        font-size: 1rem;
+        margin: 0 2rem 1rem;
+    }
+    .text-info
+    {
+        margin: 0 2rem 1rem;
+    }
+    .text-small
+    {
+        font-size: 0.75rem;
+    }
+    .img-logo
+    {
+        max-width: 5rem;
+        height: auto;
+    }   
+    .register
+    {
+        padding: 1.5rem 2rem;
+    }
+}
