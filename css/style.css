@@ -15,6 +15,10 @@
     src: url('../fonts/Roboto/Roboto-Black.ttf');
     font-weight: 600;
 }
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
 
 body 
 {
@@ -163,7 +167,7 @@ body
 }
 .link
 {
-    color: #001f3f; 
+    color: #C00; 
     text-decoration: none;
     transition: color 0.3s ease-in-out; 
     margin-left: 0.5rem;
@@ -171,5 +175,5 @@ body
 .link:hover,
 .link:active
 {
-    color: #003366;
+    color: #8b0000;
 }
