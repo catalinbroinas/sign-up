@@ -218,3 +218,11 @@ input:placeholder-shown
 {
     color: #8b0000;
 }
+.register .alert
+{
+    display: none;
+    border-left: 4px solid #C00;
+    color: #C00;
+    background-color: #F8BBD0;
+    padding: 0.5rem 2rem;
+}
